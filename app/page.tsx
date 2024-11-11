@@ -7,8 +7,8 @@ export default function Page() {
         clemens' log
       </h1>
       <p className="mb-4">
-        {`a collection of stories
-		tales of triumph and woe
+        {`non-sequitur anthology\n
+		tales of triumph and woe\n
 		and all the colors within;`}
       </p>
       <div className="my-8">
