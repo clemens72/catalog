@@ -10,6 +10,9 @@ const navItems = {
   'https://redhealerband.com': {
     name: 'website',
   },
+  '/api/auth/login': {
+    name: 'login',
+  },
 }
 
 export function Navbar() {
