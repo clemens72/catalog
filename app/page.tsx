@@ -7,7 +7,7 @@ export default function Page() {
         clemens' log
       </h1>
       <p className="mb-4 whitespace-pre-line">
-        {`non-sequitur anthology
+        {`non-sequitur anthology--
 		triumph united with woe
 		and polychrome betwixt;`}
       </p>
