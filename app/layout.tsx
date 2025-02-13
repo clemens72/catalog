@@ -8,7 +8,6 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
 import { baseUrl } from './sitemap'
 import React from 'react'
-import { UserProvider } from '@auth0/nextjs-auth0/client'
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -54,7 +53,6 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
-		<UserProvider>
 		  <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
 			<main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
 			  <Navbar />
@@ -64,7 +62,6 @@ export default function RootLayout({
 			  <SpeedInsights />
 			</main>
 		  </body>
-		</UserProvider>
     </html>
   )
 }
